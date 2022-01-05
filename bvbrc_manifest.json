@@ -1,0 +1,73 @@
+{
+    "metadata": "BV-BRC modified primer schemes for SARS2 (and other organisms as supported by original repository) assembly",
+    "repository": "https://github.com/BV-BRC/primer-schemes",
+    "organisms": [
+	{ 
+	    "name": "SARS-CoV-2",
+	    "primers": {
+		"ARTIC": {
+		    "schemes": [
+			{
+			    "version": "V1",
+			    "primers": "nCoV-2019.scheme.bed",
+			    "reference": "nCoV-2019.reference.fasta"
+			},
+			{
+			    "version": "V2",
+			    "primers": "nCoV-2019.scheme.bed",
+			    "reference": "nCoV-2019.reference.fasta"
+			},
+			{
+			    "version": "V3",
+			    "primers": "nCoV-2019.scheme.bed",
+			    "reference": "nCoV-2019.reference.fasta"
+			},
+			{
+			    "version": "V4",
+			    "primers": "SARS-CoV-2.primer.bed",
+			    "reference": "SARS-CoV-2.reference.fasta"
+			}
+		    ]
+		},
+		"midnight": {
+		    "schemes": [
+			{
+			    "version": "V1",
+			    "primers": "midnight.scheme.bed",
+			    "reference": "midnight.reference.fasta"
+			}
+		    ]
+		},
+		"qiagen": {
+		    "schemes": [
+			{
+			    "version": "V1",
+			    "primers": "qiagen.scheme.bed",
+			    "reference": "qiagen.reference.fasta"
+			}
+		    ]
+		},
+		"swift": {
+		    "schemes": [
+			{
+			    "version": "V1",
+			    "primers": "swift.scheme.bed",
+			    "reference": "swift.reference.fasta"
+			}
+		    ]
+		},
+		"varskip": {
+		    "schemes": [
+			{
+			    "version": "V1",
+			    "primers": "varskip.scheme.bed",
+			    "reference": "varskip.reference.fasta"
+			}
+		    ]
+		}
+	    }		
+	}
+    ]
+}
+			    
+	    
