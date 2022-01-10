@@ -66,12 +66,12 @@
 		    ]
 		},
 		"varskip": {
-		    "path": "varskip",
+		    "path": "NEBVarSkip",
 		    "schemes": [
 			{
-			    "version": "V1",
-			    "primers": "varskip.scheme.bed",
-			    "reference": "varskip.reference.fasta"
+			    "version": "V1a",
+			    "primers": "NEB_VarSkip.scheme.bed",
+			    "reference": "NEB_VarSkip.reference.fasta"
 			}
 		    ]
 		}

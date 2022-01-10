@@ -1,0 +1,21 @@
+#!/bin/sh
+
+#
+# Pull varskip primers from the NE Biolabs website
+#
+
+set -e
+set -u
+
+repo=https://github.com/nebiolabs/VarSkip
+
+dir=varskip_local
+
+rm -rf dir
+
+git clone $repo $dir
+
+rm -rf NEB_VarSkip
+
+cp -r $dir/schemes/NEB_VarSkip .
+
