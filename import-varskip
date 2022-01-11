@@ -11,11 +11,24 @@ repo=https://github.com/nebiolabs/VarSkip
 
 dir=varskip_local
 
-rm -rf dir
+rm -rf $dir
 
 git clone $repo $dir
 
 rm -rf NEB_VarSkip
 
 cp -r $dir/schemes/NEB_VarSkip .
+
+mkdir -p NEB_VarSkipLong/V1a
+
+cp $dir/schemes/NEB_VarSkip/V1a/NEB_VarSkip.reference.fasta \
+   NEB_VarSkipLong/V1a/NEB_VarSkipLong.reference.fasta
+
+/disks/patric-common/runtime/samtools-1.11/bin/samtools faidx \
+   NEB_VarSkipLong/V1a/NEB_VarSkipLong.reference.fasta
+
+cp $dir/neb_vsl1a.primer.bed \
+   NEB_VarSkipLong/V1a/NEB_VarSkipLong.scheme.bed
+
+
 
