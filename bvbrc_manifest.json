@@ -72,6 +72,21 @@
 			    "version": "V1a",
 			    "primers": "NEB_VarSkip.scheme.bed",
 			    "reference": "NEB_VarSkip.reference.fasta"
+			},
+			{
+			    "version": "V2",
+			    "primers": "NEB_VarSkip.scheme.bed",
+			    "reference": "NEB_VarSkip.reference.fasta"
+			}
+		    ]
+		},
+		"varskip-long": {
+		    "path": "NEB_VarSkipLong",
+		    "schemes": [
+			{
+			    "version": "V1a",
+			    "primers": "NEB_VarSkipLong.scheme.bed",
+			    "reference": "NEB_VarSkipLong.reference.fasta"
 			}
 		    ]
 		}
