@@ -60,7 +60,7 @@
 		    "schemes": [
 			{
 			    "version": "V1",
-			    "primers": "swift.scheme.bed",
+			    "primers": "swift.primers.bed",
 			    "reference": "swift.reference.fasta"
 			}
 		    ]
