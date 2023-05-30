@@ -32,6 +32,116 @@
 			    "version": "V4.1",
 			    "primers": "SARS-CoV-2.primer.bed",
 			    "reference": "SARS-CoV-2.reference.fasta"
+			},
+			{
+			    "version": "V5.3.2",
+			    "primers": "SARS-CoV-2.primer.bed",
+			    "reference": "SARS-CoV-2.reference.fasta"
+			}
+		    ]
+		},
+		"midnight": {
+		    "path": "midnight",
+		    "schemes": [
+			{
+			    "version": "V1",
+			    "primers": "midnight.scheme.bed",
+			    "reference": "midnight.reference.fasta"
+			}
+		    ]
+		},
+		"qiagen": {
+		    "path": "qiagen",
+		    "schemes": [
+			{
+			    "version": "V1",
+			    "primers": "qiagen.scheme.bed",
+			    "reference": "qiagen.reference.fasta"
+			}
+		    ]
+		},
+		"swift": {
+		    "path": "swift",
+		    "schemes": [
+			{
+			    "version": "V1",
+			    "primers": "swift.primers.bed",
+			    "reference": "swift.reference.fasta"
+			}
+		    ]
+		},
+		"varskip": {
+		    "path": "NEB_VarSkip",
+		    "schemes": [
+			{
+			    "version": "V1a",
+			    "primers": "NEB_VarSkip.scheme.bed",
+			    "reference": "NEB_VarSkip.reference.fasta"
+			},
+			{
+			    "version": "V2",
+			    "primers": "NEB_VarSkip.scheme.bed",
+			    "reference": "NEB_VarSkip.reference.fasta"
+			}
+		    ]
+		},
+		"varskip-long": {
+		    "path": "NEB_VarSkipLong",
+		    "schemes": [
+		    ]
+		},
+		"midnight": {
+		    "path": "midnight",
+		    "schemes": [
+			{
+			    "version": "V1",
+			    "primers": "midnight.scheme.bed",
+			    "reference": "midnight.reference.fasta"
+			}
+		    ]
+		},
+		"qiagen": {
+		    "path": "qiagen",
+		    "schemes": [
+			{
+			    "version": "V1",
+			    "primers": "qiagen.scheme.bed",
+			    "reference": "qiagen.reference.fasta"
+			}
+		    ]
+		},
+		"swift": {
+		    "path": "swift",
+		    "schemes": [
+			{
+			    "version": "V1",
+			    "primers": "swift.primers.bed",
+			    "reference": "swift.reference.fasta"
+			}
+		    ]
+		},
+		"varskip": {
+		    "path": "NEB_VarSkip",
+		    "schemes": [
+			{
+			    "version": "V1a",
+			    "primers": "NEB_VarSkip.scheme.bed",
+			    "reference": "NEB_VarSkip.reference.fasta"
+			},
+			{
+			    "version": "V2",
+			    "primers": "NEB_VarSkip.scheme.bed",
+			    "reference": "NEB_VarSkip.reference.fasta"
+			}
+		    ]
+		},
+		"varskip-long": {
+		    "path": "NEB_VarSkipLong",
+		    "schemes": [
+			{
+			    "version": "V4.1",
+			    "primers": "SARS-CoV-2.primer.bed",
+			    "reference": "SARS-CoV-2.reference.fasta"
 			}
 		    ]
 		},
